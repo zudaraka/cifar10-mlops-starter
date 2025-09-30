@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env/
+mlflow_tracking/
+artifacts/
+data/
+*.pt
+*.ckpt
+*.log
+.DS_Store

@@ -1,0 +1,16 @@
+stages:
+  train:
+    cmd: python -m src.train
+    deps:
+      - src/train.py
+      - src/model.py
+      - src/data.py
+      - params.yaml
+    outs:
+      - artifacts/model.pt
+  evaluate:
+    cmd: python -m src.evaluate
+    deps:
+      - artifacts/model.pt
+      - src/evaluate.py
+      - src/data.py

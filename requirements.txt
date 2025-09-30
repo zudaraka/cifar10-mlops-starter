@@ -1,0 +1,10 @@
+torch
+torchvision
+torchaudio
+mlflow
+fastapi
+uvicorn[standard]
+pillow
+pyyaml
+pytest
+dvc
