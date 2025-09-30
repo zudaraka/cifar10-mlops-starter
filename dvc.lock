@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python -m src.train
+    deps:
+    - path: params.yaml
+      hash: md5
+      md5: 52f284e566cfa480f1bf72aff9443a07
+      size: 51
+    - path: src/data.py
+      hash: md5
+      md5: 65d3939e5b88eaab3ffd26ca2dce438d
+      size: 1053
+    - path: src/model.py
+      hash: md5
+      md5: cf948afa6c79b569d9f1f4e3a3812ab0
+      size: 463
+    - path: src/train.py
+      hash: md5
+      md5: 11e4fc8828b512325234fabb59322381
+      size: 1699
+    outs:
+    - path: artifacts/model.pt
+      hash: md5
+      md5: 574e5ee8d95fe3791eeda177cf8d298a
+      size: 4286385
