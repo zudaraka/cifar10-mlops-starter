@@ -7,3 +7,5 @@ This repo is a minimal, graded-rubric-friendly starter:
 - FastAPI inference service
 - Docker container
 - Simple monitoring hook (placeholder)
+
+Test accuracy (from `python -m src.evaluate`): **0.6198**
