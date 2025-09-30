@@ -9,3 +9,6 @@ data/
 *.log
 .DS_Store
 /data
+
+# local test image
+sample.jpg
